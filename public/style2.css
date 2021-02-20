@@ -1,0 +1,46 @@
+table {
+    
+    
+    
+    background-color: #2196F3; 
+    padding: right 50%;
+    margin: auto;
+}
+th, td {
+    
+    
+    background-color: hsl(83, 90%, 54%);
+    padding: 10px;
+}
+.Ordered {
+ 
+background-color: red;
+
+
+}
+.Cooked {
+
+    background-color: salmon;
+}
+
+.Served {
+
+    background-color: springgreen;
+}
+
+.Paid  {
+
+    background-color: green;
+}
+button {
+    transition-duration: 0.4s;
+  }
+  
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: rgb(245, 13, 13);
+  }
+.box {
+
+    background: tomato;
+}

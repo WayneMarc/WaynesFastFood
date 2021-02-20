@@ -1,0 +1,45 @@
+body {
+        margin: auto;
+        width: 30%;
+        
+       padding-bottom: 40%;
+        color:white,;
+     
+        
+                    
+         
+
+
+     background-image:url("Burger.jpg") ;
+      height: -1px;
+      background-size:30px;
+       background-position:left;
+       background-size: cover;
+       position: relative;
+       }
+
+       h1 {
+        animation-duration: 3s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+    }
+
+p {
+    color: rgb(65, 63, 78);
+    font-style: oblique;
+    background-color: white;
+}
+.submit {
+    text-align: center;
+}
